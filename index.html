@@ -1,0 +1,551 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Koonys Pizza Website</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ"
+      crossorigin="anonymous"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/@fancyapps/ui@4.0/dist/fancybox.css"
+    />
+
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
+    <link rel="stylesheet" href="./assets/css/style.css" />
+
+    <link rel="stylesheet" href="./assets/js/main.js" />
+  </head>
+
+  <body data-bs-spy="scroll" data-bs-target=".navbar">
+    <!-- NAVBAR -->
+    <nav
+      class="navbar navbar-expand-lg sticky-top bg"
+      style="background-color: #e4ba6a"
+    >
+      <div class="container">
+        <a class="navbar-brand fs-3 ms-3" href="#">
+          <img src="./assets/images/logo2.png" alt="" />
+        </a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+              <a class="nav-link mx-3" href="#hero">Inicio</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link mx-3" href="#about">Conocenos</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link mx-3" href="#reviews">Testimonios</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link mx-3" href="#portfolio">Galería</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link mx-3" href="#contact">Contactanos</a>
+            </li>
+            <a href="tel:+525541685304" class="btn btn-brand ms-lg-3 mx-3"
+              >Llamanos</a
+            >
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!-- HERO -->
+    <section id="hero" class="min-vh-100 d-flex align-items-center text-center">
+      <div class="container">
+        <div class="row">
+          <div class="col-12">
+            <h1
+              data-aos="fade-left"
+              class="text-uppercase text-black fw-semibold display-1"
+            >
+              Bienvenidos a Koony's Pizza
+            </h1>
+            <h5 class="text-black mt-3 mb-4" data-aos="fade-right">
+              La vida es mejor si tiene forma de pizza
+            </h5>
+            <div data-aos="fade-up" data-aos-delay="50">
+              <a href="#about" class="btn btn-brand me-2">Conocenos</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ABOUT -->
+    <section id="about" class="section-padding">
+      <div class="container">
+        <div class="row">
+          <div
+            class="col-12 text-center"
+            data-aos="fade-down"
+            data-aos-delay="50"
+          >
+            <div class="section-title">
+              <h1 class="display-4 fw-semibold">Acerca de nosotros</h1>
+              <div class="line"></div>
+              <p>
+                Deliciosas pizzas, en un ambiente retro dentro de una gran
+                colección de promocionales y productos Coca-Cola.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="row justify-content-between align-items-center">
+          <div class="col-lg-6" data-aos="fade-down" data-aos-delay="50">
+            <iframe
+              class="googlemap"
+              src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d15060.795558488919!2d-99.1270179!3d19.317174!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x85ce01c09272c301%3A0x6ed345e23bfd308e!2sKoony&#39;s%20Pizza!5e0!3m2!1ses!2smx!4v1678765776086!5m2!1ses!2smx"
+              width="750"
+              height="500"
+              style="border: 0"
+              allowfullscreen=""
+              loading="lazy"
+              referrerpolicy="no-referrer-when-downgrade"
+            ></iframe>
+          </div>
+          <div data-aos="fade-down" data-aos-delay="150" class="col-lg-5">
+            <h1>Información importante</h1>
+            <p class="mt-3 mb-4"></p>
+            <div class="d-flex pt-4 mb-3">
+              <div class="iconbox me-4">
+                <i class="ri-rocket-2-fill"></i>
+              </div>
+              <div>
+                <h5>Dirección</h5>
+                <p>
+                  Canal de Miramontes 2724 Cipreses Coyoacán 04830 Ciudad de
+                  México, CDMX México
+                </p>
+              </div>
+            </div>
+            <div class="d-flex mb-3">
+              <div class="iconbox me-4">
+                <i class="ri-user-5-fill"></i>
+              </div>
+              <div>
+                <h5>Horario de atención</h5>
+                <table itemprop="openinHours">
+                  <tbody>
+                    <tr>
+                      <th>lunes:</th>
+                      <td>13:00-21:00</td>
+                    </tr>
+                    <tr>
+                      <th>Martes:</th>
+                      <td>13:00-21:00</td>
+                    </tr>
+                    <tr>
+                      <th>Miercoles:</th>
+                      <td>13:00-21:00</td>
+                    </tr>
+                    <tr>
+                      <th>Jueves:</th>
+                      <td>13:00-21:00</td>
+                    </tr>
+                    <tr>
+                      <th>Viernes:</th>
+                      <td>13:00-21:00</td>
+                    </tr>
+                    <tr>
+                      <th>Sabado:</th>
+                      <td>13:00-21:00</td>
+                    </tr>
+                    <tr>
+                      <th>Domingo:</th>
+                      <td>13:00-21:00</td>
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- REVIEW -->
+    <section id="reviews" class="section-padding bg-light">
+      <div class="container">
+        <div class="row">
+          <div
+            class="col-12 text-center"
+            data-aos="fade-down"
+            data-aos-delay="150"
+          >
+            <div class="section-title">
+              <h1 class="display-4 fw-semibold">Testimonios</h1>
+              <div class="line"></div>
+              <p>
+                Nos importan muchos los comentarios de nuestros clientes para
+                mejorar nuestro servicios. Y aquí te dejamos algunos de ellos.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="row gy-5 gx-4">
+          <div
+            class="col-lg-4 col-sm-6"
+            data-aos="fade-down"
+            data-aos-delay="150"
+          >
+            <div class="review">
+              <div class="review-head p-4 bg-white theme-shadow">
+                <div class="text-warning">
+                  <i class="ri-star-fill"></i>
+                  <i class="ri-star-fill"></i>
+                  <i class="ri-star-fill"></i>
+                  <i class="ri-star-fill"></i>
+                  <i class="ri-star-fill"></i>
+                </div>
+                <p>
+                  La atención es bastante buena, el lugar es muy bonito y el
+                  ambiente se siente muy familiar. Las pizzas realmente
+                  deliciosas, es de masa delgada y el sabor realmente es
+                  increíble, recomiendo ir
+                </p>
+              </div>
+              <div class="review-person mt-4 d-flex align-items-center">
+                <img
+                  class="rounded-circle"
+                  src="./assets/images/avatar-1.jpg"
+                  alt=""
+                />
+                <div class="ms-3">
+                  <h5>ve</h5>
+                  <small>Hace 2 meses</small>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div
+            class="col-lg-4 col-sm-6"
+            data-aos="fade-down"
+            data-aos-delay="250"
+          >
+            <div class="review">
+              <div class="review-head p-4 bg-white theme-shadow">
+                <div class="text-warning">
+                  <i class="ri-star-fill"></i>
+                  <i class="ri-star-fill"></i>
+                  <i class="ri-star-fill"></i>
+                  <i class="ri-star-fill"></i>
+                  <i class="ri-star-fill"></i>
+                </div>
+                <p>
+                  La pizza de camarón con extra de camarón es la ley!!!
+                  Actualización: No había probado la pizza de chocolate blanco
+                  con Almendras y no tiene madre!!!
+                </p>
+              </div>
+              <div class="review-person mt-4 d-flex align-items-center">
+                <img
+                  class="rounded-circle"
+                  src="./assets/images/avatar-2.jpg"
+                  alt=""
+                />
+                <div class="ms-3">
+                  <h5>Rodrigo A</h5>
+                  <small>Hace 6 meses</small>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div
+            class="col-lg-4 col-sm-6"
+            data-aos="fade-down"
+            data-aos-delay="350"
+          >
+            <div class="review">
+              <div class="review-head p-4 bg-white theme-shadow">
+                <div class="text-warning">
+                  <i class="ri-star-fill"></i>
+                  <i class="ri-star-fill"></i>
+                  <i class="ri-star-fill"></i>
+                  <i class="ri-star-fill"></i>
+                  <i class="ri-star-fill"></i>
+                </div>
+                <p>
+                  La comida es bastante buena y abundante. Toda la comida se
+                  siente hogareña. La pizza de masa delgada es deliciosa y
+                  ligera; la pasta Koony's se siente un abrazo al estómago.
+                  Pedir un chocolate francés al final de la comida fue una
+                  decisión ganadora El menú no es muy vasto, tanto en la comida
+                  como en las bebidas; supongo que siguen el dogma de mantenerlo
+                  simple. El servicio fue bastante rápido y amable, además de
+                  que, a pesar de las restricciones de espacio, se las ingenian
+                  para recibir grupos de varios tamaños. Lo recomiendo
+                </p>
+              </div>
+              <div class="review-person mt-4 d-flex align-items-center">
+                <img
+                  class="rounded-circle"
+                  src="./assets/images/avatar-3.jpg"
+                  alt=""
+                />
+                <div class="ms-3">
+                  <h5>Samuel R</h5>
+                  <small>Hace 3 meses</small>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- PORTFOLIO -->
+    <section id="portfolio" class="section-padding">
+      <div class="container">
+        <div class="row">
+          <div
+            class="col-12 text-center"
+            data-aos="fade-down"
+            data-aos-delay="150"
+          >
+            <div class="section-title">
+              <h1 class="display-4 fw-semibold">Galería</h1>
+              <div class="line"></div>
+              <p>Un poco de lo que es la experencia en Koony's</p>
+            </div>
+          </div>
+        </div>
+        <div class="row g-4">
+          <div class="col-md-4" data-aos="fade-down" data-aos-delay="150">
+            <div class="portfolio-item image-zoom">
+              <div class="image-zoom-wrapper">
+                <img src="./assets/images/comida.jpeg" alt="" />
+              </div>
+              <a
+                href="./assets/images/comida.jpeg"
+                data-fancybox="gallery"
+                class="iconbox"
+                ><i class="ri-search-2-line"></i
+              ></a>
+            </div>
+            <div class="portfolio-item image-zoom mt-4">
+              <div class="image-zoom-wrapper">
+                <img src="./assets/images/comida2.jpeg" alt="" />
+              </div>
+              <a
+                href="./assets/images/comida2.jpeg"
+                data-fancybox="gallery"
+                class="iconbox"
+                ><i class="ri-search-2-line"></i
+              ></a>
+            </div>
+          </div>
+          <div class="col-md-4" data-aos="fade-down" data-aos-delay="250">
+            <div class="portfolio-item image-zoom">
+              <div class="image-zoom-wrapper">
+                <img src="./assets/images/comida3.jpg" alt="" />
+              </div>
+              <a
+                href="./assets/images/comida3.jpg"
+                data-fancybox="gallery"
+                class="iconbox"
+                ><i class="ri-search-2-line"></i
+              ></a>
+            </div>
+            <div class="portfolio-item image-zoom mt-4">
+              <div class="image-zoom-wrapper">
+                <img src="./assets/images/comida4.jpg" alt="" />
+              </div>
+              <a
+                href="./assets/images/comida4.jpg"
+                data-fancybox="gallery"
+                class="iconbox"
+                ><i class="ri-search-2-line"></i
+              ></a>
+            </div>
+          </div>
+          <div class="col-md-4" data-aos="fade-down" data-aos-delay="350">
+            <div class="portfolio-item image-zoom">
+              <div class="image-zoom-wrapper">
+                <img src="./assets/images/pizzeria3.png" alt="" />
+              </div>
+              <a
+                href="./assets/images/pizzeria3.png"
+                data-fancybox="gallery"
+                class="iconbox"
+                ><i class="ri-search-2-line"></i
+              ></a>
+            </div>
+            <div class="portfolio-item image-zoom mt-4">
+              <div class="image-zoom-wrapper">
+                <img src="./assets/images/menu.jpg" alt="" />
+              </div>
+              <a
+                href="./assets/images/menu.jpg"
+                data-fancybox="gallery"
+                class="iconbox"
+                ><i class="ri-search-2-line"></i
+              ></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- CONTACT -->
+    <section class="section-padding bg-light" id="contact">
+      <div class="container">
+        <div class="row">
+          <div
+            class="col-12 text-center"
+            data-aos="fade-down"
+            data-aos-delay="150"
+          >
+            <div class="section-title">
+              <h1 class="display-4 text-black fw-semibold">
+                Realiza una cotización con nosotros
+              </h1>
+              <div class="line bg-white"></div>
+              <p class="text-white"></p>
+            </div>
+          </div>
+        </div>
+        <div
+          class="row justify-content-center"
+          data-aos="fade-down"
+          data-aos-delay="250"
+        >
+          <div class="col-lg-8">
+            <form
+              action="assets/php/actions.php"
+              class="row g-3 p-lg-5 p-4 bg-white theme-shadow"
+              method="post"
+            >
+              <div class="form-group col-lg-6">
+                <input
+                  type="text"
+                  class="form-control"
+                  name="name"
+                  id="name"
+                  placeholder="Ingresa un nombre"
+                />
+              </div>
+              <div class="form-group col-lg-6">
+                <input
+                  type="text"
+                  class="form-control"
+                  name="lastname"
+                  id="lastname"
+                  placeholder="Ingresa un apellido"
+                />
+              </div>
+              <div class="form-group col-lg-12">
+                <input
+                  type="email"
+                  class="form-control"
+                  name="email"
+                  id="email"
+                  placeholder="Ingresa un correo"
+                />
+              </div>
+              <div class="form-group col-lg-12">
+                <input
+                  type="text"
+                  class="form-control"
+                  name="phone"
+                  id="phone"
+                  placeholder="Ingresa un número de celular"
+                />
+              </div>
+              <a style="color: black">¿En qué podemos ayudarte?</a>
+              <div class="form-group col-lg-12">
+                <textarea
+                  name="message"
+                  id="message"
+                  rows="5"
+                  class="form-control"
+                  placeholder="Quisiera obtener Información sobre disponibilidad y precios de: "
+                ></textarea>
+              </div>
+              <div class="form-group col-lg-12 d-grid">
+                <button class="btn btn-brand">Enviar</button>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer class="text-black" style="background-color: #e4ba6a">
+      <div class="footer-top">
+        <div class="container">
+          <div class="row gy-5">
+            <div class="col-lg-3 col-sm-6">
+              <a href="#"><img src="./assets/images/logo2.png" alt="" /></a>
+              <div class="line"></div>
+            </div>
+            <div class="col-lg-3 col-sm-6">
+              <h5 class="mb-0 text-black">Sobre nosotros</h5>
+              <div class="line"></div>
+              <ul>
+                <li><a href="#about">Conocenos</a></li>
+                <li><a href="#reviews">Testimonios</a></li>
+                <li><a href="#portfolio">Galería</a></li>
+              </ul>
+            </div>
+            <div class="col-lg-3 col-sm-6">
+              <h5 class="mb-0 text-black">Contactanos</h5>
+              <div class="line"></div>
+              <ul>
+                <li>
+                  Canal de Miramontes 2724 Cipreses Coyoacán 04830 Ciudad de
+                  México, CDMX México
+                </li>
+                <li>(55) 4168 - 5304</li>
+                <li>(55) 5684 - 3157</li>
+                <li><a href="#contact">Pide una cotización</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <div class="container">
+          <div class="row g-4 justify-content-between">
+            <div class="col-lg-3">
+              <p class="mb-0">© Copyright Koony's Pizza</p>
+            </div>
+            <div class="col-auto">
+              <p class="mb-0">
+                Diseñada por 🌸
+                <a href="https://github.com/EmmanuelAriasA"
+                  >Emmanuel Arias 🌸</a
+                >
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui@4.0/dist/fancybox.umd.js"></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script src="./assets/js/main.js"></script>
+  </body>
+</html>
