@@ -14,7 +14,7 @@ $sql = "INSERT INTO contacto (nombre, apellido, correo, celular, mensaje) VALUES
 if ($conn->query($sql) == true) {
     header('location: /pizzeria/index.html');
 } else {
-    echo "Error al enviar el mensaje";
+    echo "Error al enviar el mensaje, ez";
 }
 
 $conn->close();
